@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #E8F5E9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar-logo {
+    background-color: #673AB7;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+.logo-container .logo {
+    text-decoration: none;
+}
+.logo-container .logo img {
+    height: 40px;
+}
+.nav-list-logo {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+.nav-list-logo li a {
+    font-family: Monaco;
+    text-decoration: none;
+    color: #FF4081;
+    padding: 8px 12px;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 4px;
+}
+.nav-list-logo li a:hover {
+    background-color: #ff4081;
+    color: #ffffff;
+}
+
+.texto-galeria-container h2 {
+    text-align: center;
+    color: #673AB7;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.texto-galeria-container {
+    background-color: #FFFFFF;
+    padding: 30px 40px;
+    margin: 40px auto 20px auto;
+    max-width: 1100px;
+    border: 2px solid #673AB7;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    text-align: justify;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.texto-galeria-descripcion {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.slider-titulo {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: #4a148c;
+    font-size: 2.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.lista-creditos {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 30px;
+    text-align: left;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lista-creditos li {
+    margin-bottom: 15px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+    display: list-item;
+    flex-direction: initial;
+    align-items: initial;
+}
+
+.lista-creditos li p {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #673AB7;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.lista-creditos a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    display: inline-block;
+    max-width: 100%;
+    margin-top: 0;
+    padding: 0;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.lista-creditos a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}

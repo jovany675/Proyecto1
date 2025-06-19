@@ -1,0 +1,61 @@
+body {
+margin: 0;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #E8F5E9;
+}
+
+.navbar-logo {
+background-color: #673AB7;
+padding: 10px 20px;
+display: flex;
+justify-content: space-between; 
+align-items: center; 
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+.logo-container .logo {
+text-decoration: none;
+}
+.logo-container .logo img {
+height: 40px;
+}
+.nav-list-logo {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex; 
+gap: 25px; 
+}
+.nav-list-logo li a {
+	font-family: Monaco;
+text-decoration: none;
+color: #FF4081;
+padding: 8px 12px;
+display: block;
+transition: background-color 0.3s ease, color 0.3s ease;
+border-radius: 4px;
+}
+.nav-list-logo li a:hover {
+background-color: #ff4081;
+color: #ffffff;
+}
+.texto-galeria-container h2{
+    text-align: center;
+}
+.texto-galeria-container {
+    background-color: #FFFFFF; /* Fondo blanco */
+    padding: 30px 40px; /* Espaciado interno */
+    margin: 40px auto 20px auto; /* MODIFICADO: Centrar y reducir el margen inferior */
+    max-width: 800px; /* Ancho máximo para que el texto no sea demasiado largo en pantallas grandes */
+    border: 2px solid var(--primary-color); /* Contorno/Borde de color primario */
+    border-radius: 15px; /* Bordes redondeados para darle forma */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Sombra para darle profundidad */
+    text-align: justify; /* Centrar el texto dentro del contenedor */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease; /* Transiciones para interactividad */
+}
+.slider-titulo {
+    text-align: center; /* Centra el texto */
+    margin-top: 40px; /* Margen superior para separarlo del nav */
+    margin-bottom: 50px; /* Margen inferior para separarlo del carrusel */
+    color: #4a148c; /* O el color de tu barra de navegación, como #673AB7 */
+    font-size: 2.2em; /* Tamaño del título, ajusta si es necesario */
+}
